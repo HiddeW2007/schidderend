@@ -50,6 +50,11 @@
     background-color: #04AA6D;
     color: white;
   }
+
+  .navbar-gif{
+    max-width: 600px;
+}
+
   
   @media screen and (max-width: 900px) {
     .topnav a:not(:first-child) {
@@ -73,7 +78,6 @@
   
     .topnav.responsive {
       position: relative;
-      
     }
     .topnav.responsive .icon {
       position: absolute;
@@ -93,8 +97,11 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      
     }
+    .navbar-gif{
+        max-width: 200px;
+    }
+
   }
 
   /**/
